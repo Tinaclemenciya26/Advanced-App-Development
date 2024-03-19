@@ -1,0 +1,25 @@
+.slideshow-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  
+  .slideshow {
+    display: flex;
+    animation: slide 10s linear infinite; /* Adjust duration as needed */
+  }
+  
+  .slideshow img {
+    width: 25%;
+    height: 30%;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Slide infinitely */
+    }
+  }
+  

@@ -1,0 +1,66 @@
+/* Login.css */
+
+/* Login.css */
+
+/* Updated styles for the big header */
+.big-heading {
+  font-size: 36px; /* Increased font size for the big heading */
+  font-weight: bold; /* Added bold font weight */
+  text-align: center; /* Centered the text horizontally */
+  margin-bottom: 10px; /* Reduced margin at the bottom */
+  margin-top: 20px; /* Added margin at the top */
+  color: #333; /* Changed color to a darker shade */
+}
+
+.signup-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.login-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px; /* Font size for the paragraph */
+}
+
+p a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+p a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
