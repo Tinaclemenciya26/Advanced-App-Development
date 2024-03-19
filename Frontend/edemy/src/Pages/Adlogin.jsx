@@ -10,9 +10,7 @@ const AdLogin = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Add logic here to handle login (e.g., send data to backend, check credentials, etc.)
     console.log("Logging in with:", { username, password });
-    // Clear form fields after login attempt
     setUsername("");
     setPassword("");
   };
