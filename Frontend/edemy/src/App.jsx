@@ -4,7 +4,6 @@ import Register from "./Pages/Register";
 import Home from "./Pages/Home";
 import "./App.css";
 import Adlogin from './Pages/Adlogin'
-import Slideshow from "./Pages/Slideshow";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import UserPanel from "./Pages/Userpanel";
 import Profile from "./Pages/Profile";
