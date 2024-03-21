@@ -4,6 +4,7 @@ import grad from "../assets/images/grad.jpg";
 import Slideshow from "./Slideshow";
 import New from "../Pages/New";
 import Nav from "./Navbar";
+import Footer from "./Footer"
 
 const Home = () => {
   const [typedHeader, setTypedHeader] = useState("");
@@ -46,10 +47,12 @@ const Home = () => {
             is an opportunity to learn, explore, and make lifelong memories."
           </p>
         </div>
+        
       </div>
 
       <Slideshow />
       <New />
+     <Footer/>
     </div>
   );
 };

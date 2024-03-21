@@ -10,6 +10,9 @@ import Profile from "./Pages/Profile";
 import AdminDashboard from "./Pages/AdminDashboard";
 import History from './Pages/History';
 import Makepayment from "./Pages/Makepayment";
+import Footer from "./Pages/Footer";
+import Dashboard from "./Pages/Dashboard";
+import InstituteDetails from './Pages/InstituteDetails';
 
 function App() {
   return (
@@ -25,7 +28,11 @@ function App() {
           <Route path="/dash" element={<AdminDashboard />}></Route>
           <Route path="/history" element={< History/>}></Route>
           <Route path="/payment" element={< Makepayment/>}></Route>
+          <Route path="/foot" element={< Footer/>}></Route>
+          <Route path="/da" element={< Dashboard/>}></Route>
+          <Route path="/ins" element={< InstituteDetails/>}></Route>
         </Routes>
+       
       </BrowserRouter>
     </div>
   );
